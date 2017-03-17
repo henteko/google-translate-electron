@@ -1,15 +1,14 @@
-# AbemaTV viewer
+# Google Translate App
 
-Aime daisuki ;)
+Google Translate App
 
 # How to use
 
-
 ```bash
 # Clone this repository
-git clone https://github.com/henteko/abema-tv-viewer
+git clone https://github.com/henteko/google-translate-electron
 # Go into the repository
-cd abema-tv-viewer
+cd google-translate-electron
 # Install dependencies and run the app
 npm install && npm start
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "Google Translate App",
+  "name": "google-translate-electron",
   "version": "1.0.0",
   "description": "Google Translate",
   "main": "main.js",
