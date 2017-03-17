@@ -1,5 +1,5 @@
 const {app, BrowserWindow, Menu} = require('electron');
-const rootURL = 'https://abema.tv';
+const rootURL = 'https://translate.google.co.jp/?hl=ja';
 let mainWindow;
 
 const template = [
@@ -7,9 +7,9 @@ const template = [
     label: 'AppName',
     submenu: [
       {
-        label: '番組表',
+        label: 'New Window',
         accelerator: 'Cmd+Ctrl+T',
-        click: function() { createWindow(rootURL + '/timetable'); }
+        click: function() { createWindow(rootURL); }
       },
       {
         label: 'Quit',
