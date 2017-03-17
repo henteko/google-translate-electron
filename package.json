@@ -1,0 +1,26 @@
+{
+  "name": "Google Translate App",
+  "version": "1.0.0",
+  "description": "Google Translate",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "release": "electron-zip-packager . --all --out bin/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henteko/google-translate-electron.git"
+  },
+  "keywords": [ ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/henteko/google-translate-electron/issues"
+  },
+  "homepage": "https://github.com/henteko/google-translate-electron#readme",
+  "devDependencies": {
+    "electron-packager": "^7.0.3",
+    "electron-prebuilt": "^1.2.0",
+    "electron-zip-packager": "^1.0.4"
+  }
+}
