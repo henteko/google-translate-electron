@@ -3,3 +3,4 @@ node_modules
 *.iml
 .DS_Store
 bin/google-translate-electron*
+google-translate-electron-darwin-x64
