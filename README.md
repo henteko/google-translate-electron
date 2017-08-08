@@ -11,6 +11,7 @@ git clone https://github.com/henteko/google-translate-electron
 cd google-translate-electron
 # Install dependencies and run the app
 npm install && npm start
+npm run release # Release
 ```
 
 #### License [CC0 (Public Domain)](LICENSE.md)
